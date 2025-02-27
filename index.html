@@ -4,23 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" href="./assets/favicon.png" type="image/png">
 </head>
 <body>
-    <header></header>
+    <header class="header">
+        <nav class="header__menu">
+            <a class="header__menu__link" href="index.html">Home</a>
+            <a class="header__menu__link" href="aboutme.html">Sobre mim</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um Front-end de qualidade!</strong></h1>
             <p class="apresentacao__conteudo__texto">Olá! Sou Nicolas Fernandes, desenvolvedor Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
             <div class="apresentacao__links">
-                <a class="apresentacao__links__botao" href="https://www.instagram.com/nicohtfer_?igsh=MWI1aXMzbWd5cTYwbA==">Instagram</a>
-                <a class="apresentacao__links__botao" href="https://github.com/nicohtfer">GitHub</a>
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__botao" href="https://github.com/nicohtfer">
+                    <img src="./assets/icon-github.png">
+                    GitHub
+                </a>
+                <a class="apresentacao__links__botao" href="https://www.linkedin.com/in/nicolas-fernandes-7a5a112b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                    <img src="./assets/icon-linkedin.png">
+                    Linkedin
+                </a>
+                <a class="apresentacao__links__botao" href="https://www.instagram.com/nicohtfer_?igsh=MWI1aXMzbWd5cTYwbA==">
+                    <img src="./assets/icon-instagram.png">
+                    Instagram
+                </a>
             </div>
         </section>
-        <img class="conteudo__foto" src="foto_formatura.jpeg" alt="Foto de Nicolas">
+            <img class="conteudo__foto" src="./assets/foto_nicolas.jpeg" alt="Foto de Nicolas">
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <p class="footer">Desenvolvido por Nicolas</p>
+    </footer>
 </body>
 </html>
